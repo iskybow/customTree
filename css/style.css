@@ -1,0 +1,61 @@
+ul {
+    padding-left: 20px !important;
+    list-style: none !important;
+}
+
+.custom-tree {
+    display: none;
+}
+
+.custom-tree li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.custom-tree li span {
+    display: flex;
+    align-items: center;
+    min-width: 70px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.custom-tree-line-vertical {
+    position: absolute;
+    top: 30px;
+    bottom: 15px;
+    left: 10px;
+    width: 1px;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    min-width: 0 !important;
+    background-color: #000000;
+}
+
+.custom-tree-line-horizon {
+    content: '';
+    position: absolute;
+    left: -14px;
+    width: 14px;
+    height: 1px;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    min-width: 0 !important;
+    background-color: #000000;
+}
+
+.custom-tree-connection-nesting {
+    min-width: 0 !important;
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
